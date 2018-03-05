@@ -1,0 +1,12 @@
+{
+  "name": "app",
+  "version": "1.8.2",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "devDependencies": {
+    "electron-packager": "^11.1.0"
+  },
+  "scripts":{
+      "packager":"electron-packager ./ test --platform=win32 --arch=ia32 --out ./outApp --electron-version 1.8.2 --overwrite --ignore=node_modules"
+  }
+}
