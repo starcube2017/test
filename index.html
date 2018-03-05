@@ -150,12 +150,12 @@
             
         mainWindow.on('minimize',function(){
             //mainWindow.hide()
-            createAppIcon(BUILD_PATH + "images/juhua.jpg")
+            createAppIcon("images/juhua.jpg")
         })
         
         $("#toast").click(function(){
             new Notification({title:"通知",body:"收到一个错误",icon:"images/juhua.jpg"}).show()
-            flicker(BUILD_PATH + "images/juhua.jpg")
+            flicker("images/juhua.jpg")
         })
         
     </script>
