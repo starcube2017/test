@@ -1,7 +1,12 @@
 {
   "name": "app",
-  "version": "1.8.2",
+  "version": "1.0.0",
   "description": "A minimal Electron application",
+  "manifest":[{
+    "version":"1.0.1",
+    "file":["login.html"],
+    "detail":["abc"]
+  }],
   "main": "main.js",
   "devDependencies": {
     "electron-packager": "^11.1.0"
