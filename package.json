@@ -8,8 +8,8 @@
     "detail":["abc"]
   },{
     "version":"1.0.2",
-    "file":["login.html"],
-    "detail":["bcd"]
+    "file":["index.html"],
+    "detail":["更新主页"]
   }],
   "main": "main.js",
   "devDependencies": {
